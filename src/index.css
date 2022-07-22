@@ -1,0 +1,11 @@
+* {
+  /* outline: 1px solid silver; */
+  list-style: none;
+}
+
+li a{
+  color: lightgray;
+}
+li a:hover{
+  color: #333;
+}
