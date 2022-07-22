@@ -10,7 +10,7 @@ const Footer = () => {
                 <Row className='gap-md-0 gap-4'>
                     <Col md={6} className='d-flex gap-5'>
                         <h2 className='fw-bold display-5'>:)</h2>
-                        <p className='lead text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sed sit voluptatum. Quis quos blanditiis eaque dolore obcaecati fugit in.</p>
+                        <p className='px-md-5 text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sed sit voluptatum. Quis quos blanditiis eaque dolore obcaecati fugit in.</p>
                     </Col>
                     <Col>
                         <ul>
