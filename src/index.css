@@ -1,11 +1,17 @@
-* {
-  /* outline: 1px solid silver; */
-  list-style: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
-li a{
+* {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  /* outline: 1px solid silver; */
+}
+nav{
+  background-color: #fff;
+}
+li a {
   color: lightgray;
 }
-li a:hover{
+
+li a:hover {
   color: #333;
 }

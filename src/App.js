@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
+import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Route path='/' element={<Home />} />
           </Routes>
         </div>
+        <Footer/>
       </div>
     </Router>
   );

@@ -1,30 +1,26 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function CollapsibleExample() {
     return (
         <>
-            <Navbar fixed='top' collapseOnSelect expand="lg" bg="light" variant="light" className='shadow-sm'>
+            <Navbar fixed='top' collapseOnSelect expand="lg" bg="" variant="light" className='shadow-sm'>
                 <Container>
-                    <Navbar.Brand href="#home">Lifestyle</Navbar.Brand>
+                    <Navbar.Brand href="#home" className='fw-bold'>:)</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto">
-                            <Nav.Link href="#features" active>Home</Nav.Link>
-                            <Nav.Link href="#features">Food</Nav.Link>
-                            <Nav.Link href="#features">Beauty</Nav.Link>
-                            <Nav.Link href="#pricing">Travel</Nav.Link>
-                            <Nav.Link href="#pricing">Space</Nav.Link>
-                            <Nav.Link href="#pricing">Fashion</Nav.Link>
-                            <Nav.Link href="#pricing">Study</Nav.Link>
+                            <Nav.Link href="/" active>Home</Nav.Link>
+                            <Nav.Link href="/Food">Food</Nav.Link>
+                            <Nav.Link href="/Beauty">Beauty</Nav.Link>
+                            <Nav.Link href="/Travel">Travel</Nav.Link>
+                            <Nav.Link href="/Space">Space</Nav.Link>
+                            <Nav.Link href="/Fashion">Fashion</Nav.Link>
+                            <Nav.Link href="/Study">Study</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
-                                Dank memes
-                            </Nav.Link>
+                            <Nav.Link href="#deets">Newsletter</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

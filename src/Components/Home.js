@@ -15,8 +15,8 @@ function AutoLayoutExample() {
             <Container fluid className='pt-5'>
                 <Container className='my-5 rounded'>
                     <div className="header col-md-4 mb-5">
-                        <h3>Lifestyle</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloribus!</p>
+                        <h3 className='fw-bold display-1 text-deco'>Lifestyle.</h3>
+                        <p className='text-secondary'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloribus!</p>
                     </div>
                     <Row className='gap-4 gap-md-0'>
                         <Col md={6}>
