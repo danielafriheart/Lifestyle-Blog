@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+// images
 import Coffee from '../img/coffee1.jpg';
 import Architecture from '../img/architecture.jpg';
 import Beauty from '../img/beaut.jpg';

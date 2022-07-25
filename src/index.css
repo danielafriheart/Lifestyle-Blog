@@ -3,7 +3,7 @@
 * {
   font-family: 'Roboto', sans-serif;
   list-style: none;
-  /* outline: 1px solid silver; */
+  outline: 1px solid silver;
 }
 nav{
   background-color: #fff;
