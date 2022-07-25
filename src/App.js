@@ -2,23 +2,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
+import Food from "./Components/Foodblog";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-
       <div className="App">
         <Navbar />
         <div className="Content">
           <Routes>
-            <Route path='/' element={<Home />} />
-          </Routes>
-          <Routes>
-            <Route path='/Food' element={<Home />} />
+            <Route path='/' exact element={<Home />} />
+            <Route path='/Food' exact element={<Food />} />
           </Routes>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </Router>
   );
