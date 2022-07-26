@@ -5,16 +5,7 @@
   list-style: none;
   /* outline: 1px solid silver; */
 }
-nav{
+
+nav {
   background-color: #fff;
 }
-/* li a {
-  color: lightgray;
-}
-
-li a:hover {
-  color: #333;
-}
-nav link{
-  color: #333 !important;
-} */

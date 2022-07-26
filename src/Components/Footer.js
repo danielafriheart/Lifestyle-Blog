@@ -18,7 +18,6 @@ const Footer = () => {
                             <li>Food</li>
                             <li>Beauty</li>
                             <li>Travel</li>
-
                         </ul>
                     </Col>
                     <Col>
@@ -34,7 +33,6 @@ const Footer = () => {
                             <li>Esuoladaniel002@gmail.com</li>
                         </ul>
                     </Col>
-
                 </Row>
                 <div className="foot text-end text-secondary mt-2 border-top pt-2">
                     <p>Designed by <a href="/">Esuola Daniel</a></p>

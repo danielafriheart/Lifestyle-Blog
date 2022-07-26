@@ -12,7 +12,7 @@ function CollapsibleExample() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto col-md-6 justify-content-evenly">
-                            <Link to="/" active className='text-secondary'>Home</Link>
+                            <Link to="/" active className='text-secondary activegit '>Home</Link>
                             <Link to="/Travel" className='text-secondary'>Travel</Link>
                             <Link to="/Beauty" className='text-secondary'>Beauty</Link>
                             <Link to="/Food" className='text-secondary'>Food</Link>
