@@ -15,9 +15,13 @@ const Beautyblog = () => {
         <>
             <Container fluid className='py-5 mt-5'>
                 <Container className='rounded'>
+                    <div className="header col-md-4 mb-5">
+                        <h3 className='fw-bold display-1 text-deco'>Travel.</h3>
+                        <p className='text-secondary'>Explore the world... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, eligendi!</p>
+                    </div>
                     <Card style={{ width: '100%', height: '500px', backgroundImage: `url(${Travel4})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top' }} className='shadow'>
                         <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-5'>
-                            <Card.Title className='col-6'><h1 className=' display-1 fw-bold'>Explore.</h1></Card.Title>
+                            {/* <Card.Title className='col-6'><h1 className=' display-1 fw-bold'>Explore.</h1></Card.Title> */}
                             <p className="lead col-md-4">Travel the world <br />Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, eligendi!</p>
                         </Card.ImgOverlay>
                     </Card>
