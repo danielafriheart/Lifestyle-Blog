@@ -23,10 +23,10 @@ function AutoLayoutExample() {
                     <Row className='gap-4 gap-md-0'>
                         <Col md={6}>
                             <Card style={{ width: '100%' }} className='shadow'>
-                                <Card.Img variant="top" src={Coffee} className='img-fluid rounded' />
+                                <Card.Img variant="top" src={Travel} className='img-fluid rounded' />
                                 <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-5'>
-                                    <Card.Subtitle className="mb-2 text-warning">Food</Card.Subtitle>
-                                    <Card.Title className='col-6'><h3>Wake up to the smell of coffee.</h3></Card.Title>
+                                    <Card.Subtitle className="mb-2 text-warning">Travel</Card.Subtitle>
+                                    <Card.Title className='col-6'><h3>Explore the World.</h3></Card.Title>
                                     <Card.Link href="#" className='text-light fs-5 mt-md-5'>Read More...</Card.Link>
                                 </Card.ImgOverlay>
                             </Card>
@@ -68,10 +68,10 @@ function AutoLayoutExample() {
                                 </Col>
                                 <Col md={6}>
                                     <Card style={{ width: '100%', height: '100%' }} className='shadow'>
-                                        <Card.Img variant="top" src={Travel} className='img-fluid rounded h-100' />
+                                        <Card.Img variant="top" src={Coffee} className='img-fluid rounded h-100' />
                                         <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-3'>
-                                            <Card.Subtitle className="mb-2 text-primary">Travel</Card.Subtitle>
-                                            <Card.Title><h3 className='col-7'>Explore the world.</h3></Card.Title>
+                                            <Card.Subtitle className="mb-2 text-primary">Food</Card.Subtitle>
+                                            <Card.Title><h3 className='col-8'>Explore new dishes</h3></Card.Title>
                                             <Card.Link href="#" className='text-light mt-3'>Read More...</Card.Link>
                                         </Card.ImgOverlay>
                                     </Card>

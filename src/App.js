@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
-import Food from "./Components/Foodblog";
+import Food from "./Components/Travelblog";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <div className="Content">
           <Routes>
             <Route path='/' exact element={<Home />} />
-            <Route path='/Food' exact element={<Food />} />
+            <Route path='/Travel' exact element={<Food />} />
           </Routes>
         </div>
         <Footer />
