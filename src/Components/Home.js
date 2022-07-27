@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import {Link} from 'react-router-dom'
 // images
 import Coffee from '../img/coffee1.jpg';
 import Architecture from '../img/architecture.jpg';
@@ -27,7 +28,7 @@ function AutoLayoutExample() {
                                 <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-5'>
                                     <Card.Subtitle className="mb-2 text-warning">Travel</Card.Subtitle>
                                     <Card.Title className='col-6'><h3>Explore the World.</h3></Card.Title>
-                                    <Card.Link href="#" className='text-light fs-5 mt-md-5'>Read More...</Card.Link>
+                                    <Link to="/Travel" className='text-light fs-5 mt-md-5'>Read More...</Link>
                                 </Card.ImgOverlay>
                             </Card>
                             <Row className='justify-content-between mt-4 gap-3 gap-md-0'>
