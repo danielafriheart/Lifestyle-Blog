@@ -23,7 +23,7 @@ function AutoLayoutExample() {
                     </div>
                     <Row className='gap-4 gap-md-0'>
                         <Col md={6}>
-                            <Card style={{ width: '100%' }} className='shadow'>
+                            <Card style={{ width: '100%' }} className='shadow grow'>
                                 <Card.Img variant="top" src={Travel} className='img-fluid rounded' />
                                 <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-5'>
                                     <Card.Subtitle className="mb-2 text-warning">Travel</Card.Subtitle>
@@ -33,7 +33,7 @@ function AutoLayoutExample() {
                             </Card>
                             <Row className='justify-content-between mt-4 gap-3 gap-md-0'>
                                 <Col md={6}>
-                                    <Card style={{ width: '100%', height: '100%' }} className='shadow'>
+                                    <Card style={{ width: '100%', height: '100%' }} className='shadow grow'>
                                         <Card.Img variant="top" src={Architecture} className='img-fluid rounded h-100' />
                                         <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-3'>
                                             <Card.Subtitle className="mb-2">Space</Card.Subtitle>
@@ -43,7 +43,7 @@ function AutoLayoutExample() {
                                     </Card>
                                 </Col>
                                 <Col md={6}>
-                                    <Card style={{ width: '100%', height: '100%' }} className='shadow'>
+                                    <Card style={{ width: '100%', height: '100%' }} className='shadow grow'>
                                         <Card.Img variant="top" src={Fashion} className='img-fluid rounded h-100' />
                                         <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-3'>
                                             <Card.Subtitle className="mb-2 text-danger">Fashion</Card.Subtitle>
@@ -58,7 +58,7 @@ function AutoLayoutExample() {
                         <Col md={6}>
                             <Row className='justify-content-between mb-4 gap-3 gap-md-0'>
                                 <Col md={6}>
-                                    <Card style={{ width: '100%', height: '100%' }} className='shadow'>
+                                    <Card style={{ width: '100%', height: '100%' }} className='shadow grow'>
                                         <Card.Img variant="top" src={Beauty} className='img-fluid rounded h-100' />
                                         <Card.ImgOverlay className='d-flex justify-content-center text-light flex-column px-md-3'>
                                             <Card.Subtitle className="mb-2 text-success">Beauty</Card.Subtitle>
@@ -68,7 +68,7 @@ function AutoLayoutExample() {
                                     </Card>
                                 </Col>
                                 <Col md={6}>
-                                    <Card style={{ width: '100%', height: '100%' }} className='shadow'>
+                                    <Card style={{ width: '100%', height: '100%' }} className='shadow grow'>
                                         <Card.Img variant="top" src={Coffee} className='img-fluid rounded h-100' />
                                         <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-3'>
                                             <Card.Subtitle className="mb-2 text-primary">Food</Card.Subtitle>
@@ -79,7 +79,7 @@ function AutoLayoutExample() {
                                 </Col>
 
                             </Row>
-                            <Card style={{ width: '100%' }} className='shadow'> 
+                            <Card style={{ width: '100%' }} className='shadow grow'> 
                                 <Card.Img variant="top" src={Study} className='img-fluid rounded' />
                                 <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-5'>
                                     <Card.Subtitle className="mb-2 text-dark">Career</Card.Subtitle>

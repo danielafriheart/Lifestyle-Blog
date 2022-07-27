@@ -19,7 +19,7 @@ const Beautyblog = () => {
                         <h3 className='fw-bold display-1 text-deco'>Travel.</h3>
                         <p className='text-secondary'>Explore the world... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, eligendi!</p>
                     </div> */}
-                    <Card style={{ width: '100%', height: '500px', backgroundImage: `url(${Travel4})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top' }} className='shadow'>
+                    <Card style={{ width: '100%', height: '500px', backgroundImage: `url(${Travel4})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top' }} className='shadow grow'>
                         <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-5'>
                             <Card.Title className='col-6'><h1 className=' display-1 fw-bold'>Explore.</h1></Card.Title>
                             <p className="lead col-md-4">Travel the world <br />Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, eligendi!</p>
@@ -82,7 +82,7 @@ const Beautyblog = () => {
                 <Container>
                     <Row className='gap-4 gap-md-0'>
                         <Col md={4}>
-                            <Card style={{ width: '100%', height: '100%' }} className='shadow'>
+                            <Card style={{ width: '100%', height: '100%' }} className='shadow grow'>
                                 <Card.Img variant="top" src={Travel2} className='img-fluid rounded h-100' />
                                 <Card.ImgOverlay className='d-flex justify-content-center text-light flex-column px-md-3'>
                                     <Card.Title><h3 className='col-7'>Dubai</h3></Card.Title>
@@ -92,7 +92,7 @@ const Beautyblog = () => {
                             </Card>
                         </Col>
                         <Col md={4}>
-                            <Card style={{ width: '100%', height: '100%' }} className='shadow'>
+                            <Card style={{ width: '100%', height: '100%' }} className='shadow grow'>
                                 <Card.Img variant="top" src={Travel} className='img-fluid rounded h-100' />
                                 <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-3'>
                                     <Card.Title><h3 className='col-8'>Santorini</h3></Card.Title>
@@ -102,7 +102,7 @@ const Beautyblog = () => {
                             </Card>
                         </Col>
                         <Col md={4}>
-                            <Card style={{ width: '100%', height: '100%' }} className='shadow'>
+                            <Card style={{ width: '100%', height: '100%' }} className='shadow grow'>
                                 <Card.Img variant="top" src={Travel3} className='img-fluid rounded h-100' />
                                 <Card.ImgOverlay className='d-flex justify-content-center flex-column text-light px-md-3'>
                                     <Card.Title><h3 className='col-8'>Greece</h3></Card.Title>
